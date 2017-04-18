@@ -16,5 +16,8 @@
             "email": "andrieu.travail@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": { "TweetHub\\": "src" }
+    },
     "minimum-stability": "dev"
 }
