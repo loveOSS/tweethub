@@ -3,6 +3,7 @@ require_once './vendor/autoload.php';
 
 use TweetHub\TwitterClient;
 use Symfony\Component\Dotenv\Dotenv;
+use Lpdigital\Github\Parser\WebhookResolver;
 
 const RELEASE_EVENT='ReleaseEvent';
 const PUBLISHED='published';
@@ -16,7 +17,7 @@ if ('POST' === $_SERVER['REQUEST_METHOD']) {
      $eventName   = $event::name();
 
      if (isValid($event)) {
-         TwitterClient::tweet(getenv('TW_MSG'));
+         TwitterClient::tweet(getenv('TW_MSG').$event->release->getHtmlUrl());
      }
 }
 
