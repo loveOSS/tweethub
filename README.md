@@ -2,7 +2,7 @@
 
 ## Why yet another Twitter bot?
 
-I have only one need and didn't want to maintain to much code, and didn't want to
+I have only one need and didn't want to maintain too much code, and didn't want to
 depends on another Twitter bot I can't customize. So I did my own in 1 hour and I was
 pretty happy with so I release it for free :)
 
