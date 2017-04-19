@@ -11,7 +11,7 @@ pretty happy with so I release it for free :)
 Only 1: configure a webhook in GitHub for your repository. Everytime you'll publish a new release a Tweet
 will be sent by the account of your choice: amazing, right?
 
-More you can customize the tweet to be sent thanks to the MicroEngine  embed with this appee
+More you can customize the tweet to be sent thanks to the *MicroEngine* embed with this app'
 
 
 ## Show me the code!
@@ -28,7 +28,7 @@ TW_CONSUMER_KEY=XXXXXX
 TW_CONSUMER_SECRET=XXXXXX
 TW_ACCESS_TOK=XXXXXX
 TW_ACCESS_SECRET=XXXXXX
-TW_MSG="A new release of TwitterHub is up => checkout! @htmlUrl @url"
+TW_MSG="A new release of TwitterHub is up => checkout! @htmlUrl"
 ```
 
 > Wait! What the f*** with @ expressions?
