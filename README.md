@@ -8,10 +8,10 @@ pretty happy with so I release it for free :)
 
 ## Features?
 
-Only 1: configure a webhook in GitHub for your repository. Everytime you'll publish a new release a Tweet
+Only 1: configure a webhook in GitHub for your repository. Everytime you'll publish a new release a tweet
 will be sent by the account of your choice: amazing, right?
 
-More you can customize the tweet to be sent thanks to the *MicroEngine* embed with this app'
+More you can customize the tweet to be sent thanks to the *MicroEngine* embed with this app'.
 
 
 ## Show me the code!
@@ -26,7 +26,7 @@ Then you create a `.env` file from the distributed one and you complete it.
 
 TW_CONSUMER_KEY=XXXXXX
 TW_CONSUMER_SECRET=XXXXXX
-TW_ACCESS_TOK=XXXXXX
+TW_ACCESS_TOKEN=XXXXXX
 TW_ACCESS_SECRET=XXXXXX
 TW_MSG="A new release of TwitterHub is up => checkout! @htmlUrl"
 ```
