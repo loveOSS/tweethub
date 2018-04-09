@@ -6,7 +6,7 @@
         "lp-digital/github-event-parser": "^0.8.3",
         "knplabs/github-api": "~2.2",
         "php-http/guzzle6-adapter": "^1.1",
-        "symfony/dotenv": "^3.3@dev",
+        "symfony/dotenv": "^3.4",
         "dg/twitter-php": " v3.6"
     },
     "license": "MIT",
